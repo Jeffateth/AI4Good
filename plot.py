@@ -4,7 +4,7 @@ import numpy as np
 
 # Read both CSV files
 gpt_df = pd.read_csv('gpt_response_gpt_rating.csv')
-claude_df = pd.read_csv('gpt_response_gpt_rating.csv')
+claude_df = pd.read_csv('claude_response_claude_rating.csv')
 
 # Define a function to process score distributions
 def get_score_distributions(df, score_range=(1,5)):
