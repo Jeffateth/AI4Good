@@ -1,2 +1,2 @@
-venv/    #assumes its at the root
+venv/    #ignores everything that is placed in venv placed at root
 ai4good/
