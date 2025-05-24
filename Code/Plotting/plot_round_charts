@@ -1,0 +1,219 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.lines import Line2D
+
+# ─── 1) Load both CSVs ──────────────────────────────────────────────────────────
+df_gpt    = pd.read_csv(r'C:\Users\User\Desktop\Desktop\Uni\Semester7\Ethics\AI4Good\Ratings\Understandability\gpt_responses_with_readability.csv')
+df_claude = pd.read_csv(r'C:\Users\User\Desktop\Desktop\Uni\Semester7\Ethics\AI4Good\Ratings\Understandability\claude_responses_with_readability.csv')
+
+# ─── 2) Settings ───────────────────────────────────────────────────────────────
+metric     = 'fk_grade'
+group_keys = ['age', 'ethnicity', 'education']
+models     = {'GPT': df_gpt, 'Claude': df_claude}
+colors     = {'GPT': '#1f77b4', 'Claude': '#ff7f0e'}
+
+# ─── 3) Compute means ──────────────────────────────────────────────────────────
+group_means = {}
+for name, df in models.items():
+    group_means[name] = {
+        key: df.groupby(key)[metric].mean()
+        for key in group_keys
+    }
+
+# ─── 4) Align category indices ─────────────────────────────────────────────────
+for key in group_keys:
+    cats = sorted(set(group_means['GPT'][key].index) |
+                  set(group_means['Claude'][key].index))
+    for name in models:
+        group_means[name][key] = group_means[name][key].reindex(cats, fill_value=0)
+
+# ─── 5) Helper for grouped radial bars ─────────────────────────────────────────
+def radial_bar_grouped(ax, values_dict, labels, max_radius):
+    N      = len(labels)
+    angles = np.linspace(0, 2*np.pi, N, endpoint=False)
+    width  = 2*np.pi/N * 0.4
+
+    # set ticks once for the categories
+    ax.set_xticks(angles)
+    ax.set_xticklabels(labels, fontsize=9)
+    ax.set_theta_offset(np.pi/2)          # start at the top
+    ax.set_theta_direction(-1)            # go clockwise
+    ax.set_yticks([])                     # hide radial grid lines
+
+    # draw two side-by-side bars
+    for i, (model, vals) in enumerate(values_dict.items()):
+        offset = (i - 0.5) * width
+        bars = ax.bar(angles + offset,
+                      vals,
+                      width=width,
+                      label=model,
+                      color=colors[model],
+                      edgecolor='white')
+        # only label the first bar set for the legend
+        if i == 0:
+            for bar in bars:
+                bar.set_label(model)
+
+        # annotate values
+        for angle, v in zip(angles + offset, vals):
+            ax.text(angle, v + 0.1,
+                    f'{v:.1f}',
+                    ha='center', va='bottom',
+                    fontsize=8)
+
+    ax.set_ylim(0, max_radius * 1.1)
+
+
+# ─── 6) Plot all three charts ──────────────────────────────────────────────────
+def plot_radial_bars_understandability():
+    fig = plt.figure(figsize=(14, 4))
+    overall_max = max(
+        group_means['GPT']['education'].max(),
+        group_means['Claude']['education'].max()
+    )
+
+    for i, key in enumerate(group_keys, start=1):
+        ax = fig.add_subplot(1, 3, i, projection='polar')
+        radial_bar_grouped(ax, {
+            'GPT':    group_means['GPT'][key].values,
+            'Claude': group_means['Claude'][key].values
+        }, group_means['GPT'][key].index.astype(str).tolist(),
+        overall_max)
+        ax.set_title(f'{key.title()}\n(avg {metric.replace("_"," ").title()})', va='bottom')
+
+    # ─── Manually build a clean legend ──────────────────────────────────
+    legend_elems = [
+        Line2D([0], [0], color=colors['GPT'],   lw=8, label='GPT'),
+        Line2D([0], [0], color=colors['Claude'], lw=8, label='Claude'),
+    ]
+    fig.legend(handles=legend_elems,
+            loc='upper center',
+            ncol=2,
+            frameon=False,
+            fontsize=11,
+            bbox_to_anchor=(0.5, 1.02))
+    fig.legend(handles=legend_elems,
+            loc='upper right',
+            ncol=2,
+            frameon=False,
+            fontsize=11,
+            bbox_to_anchor=(0.9, 1.02))
+
+    plt.suptitle("Readability Difficulty by Subgroup: GPT vs. Claude", y=1.10, fontsize=14)
+    plt.tight_layout()
+    plt.show()
+
+def plot_radial_bars_ethincity_empathy():
+    # ─── 1) Load CSVs ───────────────────────────────────────────────────────────
+    df_gpt    = pd.read_csv(r'C:\Users\User\Desktop\Desktop\Uni\Semester7\Ethics\AI4Good\Ratings\gpt_response_with_ratings_updated.csv')
+    df_claude = pd.read_csv(r'C:\Users\User\Desktop\Desktop\Uni\Semester7\Ethics\AI4Good\Ratings\claude_response_with_ratings_updated.csv')
+
+    # ─── 2) Ethnicities and the four response-rating combos ─────────────────────
+    ethnicities = ['European', 'African', 'Asian']   # extend if needed
+    combo_map = {
+        'Claude Resp + Claude Rating':  (df_claude,
+                                         'Affective Empathy Score (Claude)',
+                                         'Cognitive Empathy Score (Claude)'),
+        'Claude Resp + GPT Rating':     (df_claude,
+                                         'Affective Empathy Score (GPT)',
+                                         'Cognitive Empathy Score (GPT)'),
+        'GPT Resp + Claude Rating':     (df_gpt,
+                                         'Affective Empathy Score (Claude)',
+                                         'Cognitive Empathy Score (Claude)'),
+        'GPT Resp + GPT Rating':        (df_gpt,
+                                         'Affective Empathy Score (GPT)',
+                                         'Cognitive Empathy Score (GPT)')
+    }
+
+    # ─── 3) Build mean tables (ethnicity × combo) ───────────────────────────────
+    means_aff = pd.DataFrame(index=ethnicities, columns=combo_map, dtype=float)
+    means_cog = pd.DataFrame(index=ethnicities, columns=combo_map, dtype=float)
+
+    for label, (df_src, aff_col, cog_col) in combo_map.items():
+        for eth in ethnicities:
+            sub = df_src[df_src['ethnicity'] == eth]
+            means_aff.at[eth, label] = sub[aff_col].mean()
+            means_cog.at[eth, label] = sub[cog_col].mean()
+
+    means_aff = means_aff.fillna(0)
+    means_cog = means_cog.fillna(0)
+
+    # ─── 4) Plot one polar chart with two rings ─────────────────────────────────
+    # colourblind-friendly palette
+    colours = ['#4C78A8', '#F58518', '#54A24B', '#E45756']   # blue-orange-green-red
+    ring_gap = 0.3   # radial gap between rings (in score units)
+
+    # inner-ring max is the larger of aff & cog so rings have same scale
+    r_max = float(np.nanmax([means_aff.values.max(), means_cog.values.max()]))
+
+    fig, ax = plt.subplots(figsize=(7, 7), subplot_kw=dict(polar=True))
+
+    N       = len(ethnicities)
+    angles  = np.linspace(0, 2*np.pi, N, endpoint=False)
+    bar_w   = 2*np.pi / N * 0.15              # narrow; 4 bars fit per wedge
+    ax.set_theta_offset(np.pi/2)              # 12 o’clock starts at the top
+    ax.set_theta_direction(-1)                # clockwise
+
+    # put category names between the two rings for readability
+    ax.set_xticks(angles)
+    ax.set_xticklabels(ethnicities, fontsize=10, fontweight='bold')
+    ax.set_yticks([])
+
+    # draw bars: inner ring = AFF, outer ring = COG (shifted by r_max+gap)
+    legend_handles = []
+    for i, combo in enumerate(combo_map.keys()):
+        c = colours[i]
+        # ------------- inner (affective) -------------
+        vals_aff = means_aff[combo].values.astype(float)
+        offs_aff = (i - 1.5) * bar_w
+        bars_aff = ax.bar(angles + offs_aff, vals_aff,
+                          width=bar_w,
+                          bottom=0,
+                          color=c, edgecolor='white', alpha=0.85)
+        # ------------- outer (cognitive) -------------
+        vals_cog = means_cog[combo].values.astype(float)
+        offs_cog = offs_aff
+        bars_cog = ax.bar(angles + offs_cog, vals_cog,
+                          width=bar_w,
+                          bottom=r_max + ring_gap,
+                          color=c, edgecolor='white', alpha=0.85, hatch='///')
+
+        # pick one of the two bar artists for the legend
+        legend_handles.append(bars_aff[0])
+
+        # annotate numeric values (slightly above bar tops)
+        for ang, v in zip(angles + offs_aff, vals_aff):
+            ax.text(ang, v + 0.05, f'{v:.2f}', ha='center', va='bottom', fontsize=7)
+        for ang, v in zip(angles + offs_cog, vals_cog):
+            ax.text(ang, r_max + ring_gap + v + 0.05,
+                    f'{v:.2f}', ha='center', va='bottom', fontsize=7)
+
+    # radial limits to fit both rings
+    ax.set_ylim(0, 2*r_max + ring_gap*1.5)
+
+    # titles
+    ax.set_title("Empathy Scores by Ethnicity\n(inner ring = Affective, outer ring = Cognitive)",
+                 va='bottom', fontsize=13, fontweight='bold')
+
+    # legend (explain colour = combo, hatch = cognitive)
+    lgd = ax.legend(legend_handles,
+                    list(combo_map.keys()),
+                    bbox_to_anchor=(0.5, -0.12),
+                    loc='upper center',
+                    ncol=2,
+                    frameon=False,
+                    title='Source')
+    lgd.get_title().set_fontweight('bold')
+
+    plt.tight_layout()
+    plt.show()
+    plt.savefig('empathy_ethnicity.png', dpi=300, transparent=True)
+    print("Plot saved")
+
+def main():
+    plot_radial_bars_ethincity_empathy()
+
+if __name__ == "__main__":
+    main()
+
