@@ -8,10 +8,10 @@ We developed a comprehensive evaluation framework to assess how well commercial 
 
 ## 🎯 Key Findings
 
-- **Medical diagnosis** is the strongest bias factor (p<0.0001) - Alzheimer's receives highest empathy, heart disease lowest
-- **Education level** shows inverse relationship - medical degree holders receive 0.30-0.50 points lower empathy
-- **Age patterns** are rater-dependent - U-shaped empathy distribution emerges only with specific evaluators
-- **Cognitive empathy** remains stable across demographics while **affective empathy** varies substantially
+- **Medical diagnosis** is the strongest bias factor (p<0.0001) – Alzheimer’s receives highest empathy, heart disease lowest  
+- **Education level** shows inverse relationship – medical degree holders receive 0.30–0.50 points lower empathy  
+- **Age patterns** are rater-dependent – U-shaped empathy distribution emerges only with specific evaluators  
+- **Cognitive empathy** remains stable across demographics while **affective empathy** varies substantially  
 - **Critical methodological issue**: Poor inter-rater reliability between Claude and GPT evaluators
 
 ## 🔧 Setup
@@ -23,12 +23,12 @@ pip install -r requirements.txt
 ```
 
 ### Required Libraries
-- `pandas` - Data manipulation
-- `numpy` - Numerical computations  
-- `matplotlib`, `seaborn` - Visualization
-- `textstat` - Readability metrics
-- `litellm` - LLM API interactions
-- `scipy` - Statistical analysis
+- pandas
+- numpy  
+- matplotlib, seaborn
+- textstat
+- litellm
+- scipy
 
 ### API Keys
 Set up your API keys for:
@@ -54,37 +54,37 @@ Set up your API keys for:
 ## 🚀 Usage
 
 ### 1. Generate Diagnostic Scenarios
-```python
-# Create prompts across demographic combinations
-python Code/generate_prompts.py
+Open and run the Jupyter notebook that creates prompts:
+```
+Code/Empathy_Score/Prompt_and_Response_claude.ipynb
 ```
 
 ### 2. Collect Model Responses
-```python
-# Get responses from GPT-4o and Claude-3.7
-python Code/collect_responses.py
-```
+Within the same or a similar notebook (e.g., `Prompt_and_Response_gpt.ipynb`), gather responses from GPT-4o and Claude-3.7.
 
 ### 3. Evaluate Understandability
-```python
-# Calculate readability metrics
-python Code/evaluate_readability.py
+Run the notebook:
 ```
+Code/Understandability/empathy_ethics_understandability_analysis_rikard.ipynb
+```
+This calculates readability metrics and summarizes the output.
 
 ### 4. Assess Empathy
-```python
-# LLM-based empathy evaluation
-python Code/Empathy_Score/evaluate_empathy.py
-
-# Human annotation (optional)
-python Code/Human/human_annotation.py
+LLM-based empathy evaluation is demonstrated in:
+```
+Code/Empathy_Score/Prompt_and_Response_claude.ipynb
+```
+Human annotation can be found or adapted in:
+```
+Code/Human/human_annotation.ipynb
 ```
 
 ### 5. Generate Analysis
-```python
-# Statistical analysis and visualizations
-python Code/Plotting/generate_plots.py
+For statistical analysis and visualizations, use:
 ```
+Code/Plotting/plot.ipynb
+```
+and other notebooks (e.g., `plot_EmotionQueen_diff.ipynb`) in the same directory.
 
 ## 📊 Evaluation Framework
 
@@ -177,18 +177,6 @@ This research reveals systematic biases in AI medical communication that could p
 - Expand demographic representation in training data
 - Large-scale human validation studies
 - Real-world clinical deployment guidelines
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🤝 Contributing
-
-We welcome contributions! Please see CONTRIBUTING.md for guidelines on:
-- Reporting bugs
-- Suggesting enhancements  
-- Submitting code changes
-- Adding new evaluation metrics
 
 ## 📞 Contact
 
