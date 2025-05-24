@@ -124,20 +124,12 @@ and other notebooks (e.g., `plot_EmotionQueen_diff.ipynb`) in the same directory
 
 ## 🔬 Reproducing Results
 
-1. Run the complete pipeline:
-```bash
-python run_full_evaluation.py
-```
+1. Run the complete pipeline
 
 2. Generate specific plots:
 ```bash
-python Code/Plotting/plot_diagnosis_bias.py
-python Code/Plotting/plot_education_bias.py
-```
-
-3. Statistical analysis:
-```bash
-python Code/statistical_analysis.py
+python Code/Plotting/plot_Ethnicity_bias.py
+...
 ```
 
 ## 👥 Authors
