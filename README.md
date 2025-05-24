@@ -1,1 +1,199 @@
-# AI4Good
+# Empathy and Understandability: Assessing LLMs in Delivering Compassionate Medical Diagnoses
+
+This repository contains the code and data for evaluating the performance of Large Language Models (LLMs) in delivering empathetic and understandable medical diagnostic explanations across diverse patient demographics.
+
+## 📋 Overview
+
+We developed a comprehensive evaluation framework to assess how well commercial LLMs (GPT-4o and Claude-3.7) can deliver medical diagnoses with appropriate empathy and understandability across different patient populations. Our study reveals systematic demographic biases in AI-generated medical communications.
+
+## 🎯 Key Findings
+
+- **Medical diagnosis** is the strongest bias factor (p<0.0001) - Alzheimer's receives highest empathy, heart disease lowest
+- **Education level** shows inverse relationship - medical degree holders receive 0.30-0.50 points lower empathy
+- **Age patterns** are rater-dependent - U-shaped empathy distribution emerges only with specific evaluators
+- **Cognitive empathy** remains stable across demographics while **affective empathy** varies substantially
+- **Critical methodological issue**: Poor inter-rater reliability between Claude and GPT evaluators
+
+## 🔧 Setup
+
+### Prerequisites
+
+```bash
+pip install -r requirements.txt
+```
+
+### Required Libraries
+- `pandas` - Data manipulation
+- `numpy` - Numerical computations  
+- `matplotlib`, `seaborn` - Visualization
+- `textstat` - Readability metrics
+- `litellm` - LLM API interactions
+- `scipy` - Statistical analysis
+
+### API Keys
+Set up your API keys for:
+- OpenAI (GPT-4o)
+- Anthropic (Claude-3.7)
+
+## 📁 Repository Structure
+
+```
+├── Code/
+│   ├── Empathy_Score/          # Empathy evaluation pipeline
+│   ├── Human/                  # Human annotation tools
+│   ├── Judges_Score/           # LLM-as-judge evaluation
+│   └── Plotting/               # Visualization scripts
+├── Prompts_And_Response/       # Generated prompts and model responses
+├── Ratings/                    # Empathy and understandability ratings
+│   ├── Empathy/               # Empathy scores from different raters
+│   └── Judges/                # EmotionQueen benchmark scores
+├── Understandability/          # Readability analysis results
+└── Scoring_Charts/            # Final visualizations and charts
+```
+
+## 🚀 Usage
+
+### 1. Generate Diagnostic Scenarios
+```python
+# Create prompts across demographic combinations
+python Code/generate_prompts.py
+```
+
+### 2. Collect Model Responses
+```python
+# Get responses from GPT-4o and Claude-3.7
+python Code/collect_responses.py
+```
+
+### 3. Evaluate Understandability
+```python
+# Calculate readability metrics
+python Code/evaluate_readability.py
+```
+
+### 4. Assess Empathy
+```python
+# LLM-based empathy evaluation
+python Code/Empathy_Score/evaluate_empathy.py
+
+# Human annotation (optional)
+python Code/Human/human_annotation.py
+```
+
+### 5. Generate Analysis
+```python
+# Statistical analysis and visualizations
+python Code/Plotting/generate_plots.py
+```
+
+## 📊 Evaluation Framework
+
+### Two-Stage Assessment:
+
+**Stage 1: Generation**
+- 156 diagnostic scenarios combining:
+  - Demographics: 3 ethnicities × 2 genders × 3 education levels
+  - Medical conditions: Obesity, pancreatic cancer, Alzheimer's, heart disease
+  - Age ranges: 8-85 years
+
+**Stage 2: Evaluation**
+- **Understandability**: 6 readability metrics (Flesch-Kincaid, SMOG, etc.)
+- **Empathy**: Affective (emotional resonance) + Cognitive (perspective-taking)
+- **Validation**: EmotionQueen benchmark + human annotation
+
+## 🎨 Key Visualizations
+
+- `scores_by_diagnosis.png` - Empathy bias across medical conditions
+- `scores_by_education.png` - Education-level empathy patterns  
+- `scores_by_age.png` - Age-related empathy variations
+- `human_vs_LLM_1.png` - Human vs. AI evaluation comparison
+- `framework.png` - Overall methodology diagram
+
+## 📈 Results Summary
+
+### Systematic Biases Identified:
+1. **Medical Diagnosis** (strongest): Alzheimer's > Cancer > Obesity > Heart Disease
+2. **Education Level**: High School > University > Medical Degree  
+3. **Age** (rater-dependent): U-shaped pattern with higher empathy for children and elderly
+
+### Methodological Insights:
+- GPT consistently inflates own empathy ratings (+0.333 points)
+- Claude deflates own empathy ratings (-0.256 points)
+- Poor inter-rater reliability (r=-0.005 to 0.459)
+- Human evaluators detect biases that LLMs miss
+
+## 🔬 Reproducing Results
+
+1. Run the complete pipeline:
+```bash
+python run_full_evaluation.py
+```
+
+2. Generate specific plots:
+```bash
+python Code/Plotting/plot_diagnosis_bias.py
+python Code/Plotting/plot_education_bias.py
+```
+
+3. Statistical analysis:
+```bash
+python Code/statistical_analysis.py
+```
+
+## 📚 Citation
+
+```bibtex
+@article{liu2024empathy,
+  title={Empathy and Understandability: Assessing LLMs in Delivering Compassionate and Ethical Medical Diagnoses},
+  author={Liu, Shunchang and Drui, Guillaume and Yao, Jianzhou and Pettersson, Rikard},
+  journal={Human-Centered AI for Social Good: Peace, Health, Climate},
+  year={2024},
+  institution={ETH Zurich}
+}
+```
+
+## 👥 Authors
+
+- **Shunchang Liu** - liushu@ethz.ch
+- **Guillaume Drui** - gdrui01@ethz.ch  
+- **Jianzhou Yao** - yaojia@ethz.ch
+- **Rikard Pettersson** - rpettersson@student.ethz.ch
+
+*Human-Centered AI for Social Good: Peace, Health, Climate, ETH Zurich*
+
+## ⚠️ Ethical Considerations
+
+This research reveals systematic biases in AI medical communication that could perpetuate healthcare disparities. Key concerns:
+
+- Reduced empathy toward highly educated patients
+- Differential treatment across medical conditions  
+- Potential amplification of existing healthcare biases
+- Need for human oversight in clinical deployment
+
+## 🔄 Future Work
+
+- Develop debiasing techniques for medical AI
+- Improve evaluation methodology with better inter-rater reliability
+- Expand demographic representation in training data
+- Large-scale human validation studies
+- Real-world clinical deployment guidelines
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🤝 Contributing
+
+We welcome contributions! Please see CONTRIBUTING.md for guidelines on:
+- Reporting bugs
+- Suggesting enhancements  
+- Submitting code changes
+- Adding new evaluation metrics
+
+## 📞 Contact
+
+For questions about the research or code, please contact the authors or open an issue in this repository.
+
+---
+
+**⚠️ Disclaimer**: This research is for academic purposes. Any deployment in clinical settings requires careful validation, bias mitigation, and human oversight to ensure patient safety and equitable care.
