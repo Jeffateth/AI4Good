@@ -140,18 +140,6 @@ python Code/Plotting/plot_education_bias.py
 python Code/statistical_analysis.py
 ```
 
-## 📚 Citation
-
-```bibtex
-@article{liu2024empathy,
-  title={Empathy and Understandability: Assessing LLMs in Delivering Compassionate and Ethical Medical Diagnoses},
-  author={Liu, Shunchang and Drui, Guillaume and Yao, Jianzhou and Pettersson, Rikard},
-  journal={Human-Centered AI for Social Good: Peace, Health, Climate},
-  year={2024},
-  institution={ETH Zurich}
-}
-```
-
 ## 👥 Authors
 
 - **Shunchang Liu** - liushu@ethz.ch
