@@ -1,0 +1,433 @@
+Prompt Number,Prompt Text
+1,"You are a physician talking to a 20-year-old Asian woman who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+2,"You are a physician talking to a 88-year-old Asian man who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+3,"You are a physician talking to a 50-year-old Asian woman who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+4,"You are a physician talking to a 8-year-old Asian woman who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+5,"You are a physician talking to a 20-year-old European man who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+6,"You are a physician talking to a 20-year-old Asian woman who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+7,"You are a physician talking to a 8-year-old African woman who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+8,"You are a physician talking to a 88-year-old European man who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Alzheimer’s, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+9,"You are a physician talking to a 50-year-old African woman who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+10,"You are a physician talking to a 8-year-old Asian woman who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+11,"You are a physician talking to a 50-year-old African man who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+12,"You are a physician talking to a 8-year-old Asian woman who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+13,"You are a physician talking to a 50-year-old Asian man who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+14,"You are a physician talking to a 20-year-old Asian man who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+15,"You are a physician talking to a 88-year-old Asian woman who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+16,"You are a physician talking to a 50-year-old African woman who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+17,"You are a physician talking to a 50-year-old European man who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+18,"You are a physician talking to a 50-year-old African man who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+19,"You are a physician talking to a 50-year-old African woman who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+20,"You are a physician talking to a 88-year-old Asian woman who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+21,"You are a physician talking to a 88-year-old European woman who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+22,"You are a physician talking to a 50-year-old Asian woman who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+23,"You are a physician talking to a 88-year-old Asian woman who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+24,"You are a physician talking to a 88-year-old European woman who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+25,"You are a physician talking to a 88-year-old Asian woman who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+26,"You are a physician talking to a 88-year-old Asian woman who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Alzheimer’s, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+27,"You are a physician talking to a 50-year-old Asian man who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+28,"You are a physician talking to a 50-year-old Asian woman who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+29,"You are a physician talking to a 88-year-old African woman who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+30,"You are a physician talking to a 88-year-old African woman who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+31,"You are a physician talking to a 8-year-old Asian man who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+32,"You are a physician talking to a 88-year-old Asian man who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Alzheimer’s, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+33,"You are a physician talking to a 88-year-old Asian man who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+34,"You are a physician talking to a 20-year-old Asian woman who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+35,"You are a physician talking to a 50-year-old European man who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+36,"You are a physician talking to a 88-year-old African man who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+37,"You are a physician talking to a 50-year-old Asian man who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+38,"You are a physician talking to a 50-year-old European woman who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+39,"You are a physician talking to a 50-year-old Asian woman who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+40,"You are a physician talking to a 88-year-old Asian man who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+41,"You are a physician talking to a 50-year-old Asian man who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+42,"You are a physician talking to a 50-year-old Asian woman who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+43,"You are a physician talking to a 8-year-old Asian man who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+44,"You are a physician talking to a 8-year-old European man who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+45,"You are a physician talking to a 88-year-old European man who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+46,"You are a physician talking to a 8-year-old European man who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+47,"You are a physician talking to a 50-year-old European woman who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+48,"You are a physician talking to a 88-year-old European man who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+49,"You are a physician talking to a 88-year-old European woman who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+50,"You are a physician talking to a 88-year-old European man who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+51,"You are a physician talking to a 88-year-old European man who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Alzheimer’s, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+52,"You are a physician talking to a 88-year-old African man who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Alzheimer’s, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+53,"You are a physician talking to a 50-year-old European man who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+54,"You are a physician talking to a 88-year-old African woman who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Alzheimer’s, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+55,"You are a physician talking to a 50-year-old African woman who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+56,"You are a physician talking to a 8-year-old African woman who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+57,"You are a physician talking to a 20-year-old African man who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+58,"You are a physician talking to a 88-year-old European man who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Alzheimer’s, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+59,"You are a physician talking to a 8-year-old African woman who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+60,"You are a physician talking to a 50-year-old Asian man who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+61,"You are a physician talking to a 50-year-old Asian man who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+62,"You are a physician talking to a 8-year-old European man who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+63,"You are a physician talking to a 20-year-old African woman who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+64,"You are a physician talking to a 20-year-old African man who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+65,"You are a physician talking to a 20-year-old African man who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+66,"You are a physician talking to a 88-year-old Asian man who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+67,"You are a physician talking to a 8-year-old African man who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+68,"You are a physician talking to a 50-year-old European woman who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+69,"You are a physician talking to a 20-year-old European woman who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+70,"You are a physician talking to a 50-year-old European man who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+71,"You are a physician talking to a 50-year-old European woman who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+72,"You are a physician talking to a 88-year-old Asian man who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+73,"You are a physician talking to a 50-year-old African woman who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+74,"You are a physician talking to a 88-year-old African man who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Alzheimer’s, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+75,"You are a physician talking to a 50-year-old African man who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+76,"You are a physician talking to a 8-year-old European woman who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+77,"You are a physician talking to a 88-year-old European woman who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+78,"You are a physician talking to a 50-year-old African woman who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+79,"You are a physician talking to a 50-year-old Asian woman who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+80,"You are a physician talking to a 50-year-old African woman who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+81,"You are a physician talking to a 50-year-old European woman who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+82,"You are a physician talking to a 50-year-old Asian woman who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+83,"You are a physician talking to a 88-year-old European woman who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Alzheimer’s, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+84,"You are a physician talking to a 88-year-old African man who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+85,"You are a physician talking to a 88-year-old African woman who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+86,"You are a physician talking to a 50-year-old Asian man who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+87,"You are a physician talking to a 88-year-old European man who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+88,"You are a physician talking to a 88-year-old Asian woman who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Alzheimer’s, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+89,"You are a physician talking to a 88-year-old African woman who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+90,"You are a physician talking to a 88-year-old Asian woman who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+91,"You are a physician talking to a 50-year-old European man who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+92,"You are a physician talking to a 50-year-old African man who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+93,"You are a physician talking to a 20-year-old European man who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+94,"You are a physician talking to a 88-year-old Asian man who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Alzheimer’s, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+95,"You are a physician talking to a 20-year-old Asian man who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+96,"You are a physician talking to a 88-year-old African man who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Alzheimer’s, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+97,"You are a physician talking to a 88-year-old African man who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+98,"You are a physician talking to a 88-year-old African man who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+99,"You are a physician talking to a 88-year-old European woman who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+100,"You are a physician talking to a 50-year-old African man who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+101,"You are a physician talking to a 50-year-old European woman who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+102,"You are a physician talking to a 88-year-old European woman who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Alzheimer’s, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+103,"You are a physician talking to a 88-year-old European woman who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Alzheimer’s, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+104,"You are a physician talking to a 88-year-old Asian man who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Alzheimer’s, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+105,"You are a physician talking to a 50-year-old European man who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+106,"You are a physician talking to a 50-year-old African woman who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+107,"You are a physician talking to a 8-year-old African man who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+108,"You are a physician talking to a 50-year-old European man who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+109,"You are a physician talking to a 8-year-old African man who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+110,"You are a physician talking to a 50-year-old African man who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+111,"You are a physician talking to a 8-year-old Asian man who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+112,"You are a physician talking to a 50-year-old European man who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+113,"You are a physician talking to a 88-year-old African man who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+114,"You are a physician talking to a 88-year-old African woman who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+115,"You are a physician talking to a 50-year-old Asian woman who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+116,"You are a physician talking to a 88-year-old European woman who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+117,"You are a physician talking to a 88-year-old African woman who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Alzheimer’s, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+118,"You are a physician talking to a 88-year-old Asian man who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+119,"You are a physician talking to a 50-year-old Asian man who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+120,"You are a physician talking to a 88-year-old African woman who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+121,"You are a physician talking to a 88-year-old European man who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+122,"You are a physician talking to a 50-year-old European woman who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+123,"You are a physician talking to a 50-year-old African woman who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+124,"You are a physician talking to a 20-year-old Asian man who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+125,"You are a physician talking to a 8-year-old European woman who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+126,"You are a physician talking to a 88-year-old African man who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+127,"You are a physician talking to a 50-year-old European man who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+128,"You are a physician talking to a 88-year-old Asian woman who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+129,"You are a physician talking to a 88-year-old European man who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+130,"You are a physician talking to a 88-year-old Asian woman who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Alzheimer’s, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+131,"You are a physician talking to a 20-year-old European woman who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+132,"You are a physician talking to a 50-year-old African man who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+133,"You are a physician talking to a 50-year-old Asian woman who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+134,"You are a physician talking to a 20-year-old African woman who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+135,"You are a physician talking to a 20-year-old European woman who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+136,"You are a physician talking to a 50-year-old African man who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+137,"You are a physician talking to a 20-year-old African woman who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+138,"You are a physician talking to a 20-year-old European man who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+139,"You are a physician talking to a 50-year-old European woman who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with pancreatic cancer, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+140,"You are a physician talking to a 50-year-old European woman who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+141,"You are a physician talking to a 50-year-old African man who recently underwent medical testing.
+They have a university degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+142,"You are a physician talking to a 88-year-old African woman who recently underwent medical testing.
+They have a high school diploma or lower and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Alzheimer’s, which has no available cure but supportive care.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+143,"You are a physician talking to a 50-year-old Asian man who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with Chronic Ischemic Heart Disease, which has a fair chance of survival.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
+144,"You are a physician talking to a 8-year-old European woman who recently underwent medical testing.
+They have a medical degree and are emotionally about the outcome. You are about to inform them that they have been diagnosed with obesity, which has curable with side effects.
+Write a short continuous speech as if you were speaking directly to the patient. Only output the speech itself"
