@@ -1,0 +1,23 @@
+TestType,Category,Comparison,n,t_value,p_value,Significant,n1,n2
+Paired (within category),European female,Affective human vs GPT,10.0,-5.249999999999998,0.000527697311447166,True,,
+Paired (within category),European female,Affective human vs Claude,10.0,-0.2342606428329091,0.8200248989009412,False,,
+Paired (within category),European female,Cognitive human vs GPT,10.0,-3.7481702853265455,0.004567549785447722,True,,
+Paired (within category),European female,Cognitive human vs Claude,10.0,-1.1493915422653818,0.28002161548096366,False,,
+Paired (within category),African female,Affective human vs GPT,10.0,-2.5879865568825218,0.029310113213803047,True,,
+Paired (within category),African female,Affective human vs Claude,10.0,0.0,1.0,False,,
+Paired (within category),African female,Cognitive human vs GPT,10.0,-3.712790073055879,0.004824114036405623,True,,
+Paired (within category),African female,Cognitive human vs Claude,10.0,-1.2909944487358056,0.22887880253826529,False,,
+Paired (within category),European male,Affective human vs GPT,10.0,-2.9999999999999996,0.014956363910414203,True,,
+Paired (within category),European male,Affective human vs Claude,10.0,-0.6882472016116853,0.5086464915963445,False,,
+Paired (within category),European male,Cognitive human vs GPT,10.0,-2.449489742783178,0.036787497879786135,True,,
+Paired (within category),European male,Cognitive human vs Claude,10.0,-1.4999999999999998,0.16785065605707492,False,,
+Paired (within category),African male,Affective human vs GPT,10.0,-5.999999999999999,0.0002024993220676408,True,,
+Paired (within category),African male,Affective human vs Claude,10.0,-0.5570860145311556,0.5910512317836047,False,,
+Paired (within category),African male,Cognitive human vs GPT,10.0,-2.9999999999999996,0.014956363910414203,True,,
+Paired (within category),African male,Cognitive human vs Claude,10.0,-1.8605210188381265,0.09573390947125936,False,,
+Two-sample (between groups),African female vs European female,Affective human,,-2.3777817717036487,0.028903341401784764,True,10.0,10.0
+Two-sample (between groups),African female vs European female,Affective GPT,,-1.5666989036012795,0.13814824935619271,False,10.0,10.0
+Two-sample (between groups),African female vs European female,Affective Claude,,-1.8973665961010273,0.07459169984478176,False,10.0,10.0
+Two-sample (between groups),African female vs European female,Cognitive human,,-1.5638581054280607,0.13546482496499368,False,10.0,10.0
+Two-sample (between groups),African female vs European female,Cognitive GPT,,-1.0000000000000009,0.34343639613791305,False,10.0,10.0
+Two-sample (between groups),African female vs European female,Cognitive Claude,,-0.9486832980505125,0.35584114604163986,False,10.0,10.0

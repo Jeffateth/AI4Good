@@ -1,0 +1,28 @@
+site_name: Biased Oracle
+site_description: Empathy & Understandability Biases in LLM Medical Communication
+site_url: https://jeffateth.github.io/Biased_Oracle/
+repo_url: https://github.com/Jeffateth/Biased_Oracle
+repo_name: Jeffateth/Biased_Oracle
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - content.code.copy
+    - toc.integrate
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Jeffateth/Biased_Oracle
+nav:
+  - Home: index.md
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences

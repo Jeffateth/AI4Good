@@ -1,0 +1,5 @@
+,Source,Affective Empathy Score_mean,Affective Empathy Score_std,Affective Empathy Score_min,Affective Empathy Score_max,Affective Empathy Score_count,Cognitive Understanding Score_mean,Cognitive Understanding Score_std,Cognitive Understanding Score_min,Cognitive Understanding Score_max,Cognitive Understanding Score_count
+0,Claude→Claude,2.0833333333333335,0.5442761791037571,1,3,156,2.8653846153846154,0.3607615325595147,1,3,156
+1,Claude→GPT,2.3461538461538463,0.5035851615053183,1,3,156,2.8333333333333335,0.3738782505529831,2,3,156
+2,GPT→Claude,2.33974358974359,0.5387775275122302,1,3,156,2.7564102564102564,0.4306303687325971,2,3,156
+3,GPT→GPT,2.6794871794871793,0.46817668965658654,2,3,156,2.8653846153846154,0.3424115324696851,2,3,156
